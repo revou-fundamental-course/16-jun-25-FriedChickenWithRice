@@ -6,6 +6,89 @@
   <title>Hitung Luas & Keliling Segitiga</title>
   <link rel="stylesheet" href="/css/style.css">
 </head>
+  <style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #f4f6f8;
+  color: #333;
+  padding: 20px;
+}
+
+
+.ttl h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #2c3e50;
+}
+
+.luas-wrapper,
+.keliling {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.luas1,
+.luas2,
+.keliling label,
+.keliling input {
+  display: block;
+  margin-bottom: 10px;
+}
+
+label#jns,
+.keliling label {
+  font-weight: 600;
+  margin-bottom: 5px;
+  display: block;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+input[type="text"]:focus {
+  border-color: #2980b9;
+}
+
+button {
+  margin-top: 10px;
+  padding: 12px 20px;
+  background-color: #2980b9;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #1c5e8a;
+}
+
+.hasil {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 1.2em;
+  color: #27ae60;
+  font-weight: bold;
+}
+  </style>
 <body>
   <div class="ttl">
     <h2>Hitung Luas & Keliling Segitiga</h2>

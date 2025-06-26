@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hitung Luas & Keliling Segitiga</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div class="ttl">
+    <h2>Hitung Luas & Keliling Segitiga</h2>
+  </div>
+<div class="luas-wrapper">
+  <div class="luas1">
+  <label for="alas">Alas (cm):</label>
+  <input type="text" id="alas" placeholder="Masukkan alas segitiga">
+</div>
+<div class="luas2">
+  <label for="tinggi">Tinggi (cm):</label>
+  <input type="text" id="tinggi" placeholder="Masukkan tinggi segitiga">
+</div>
+<div class="hitung-luas">
+  <button onclick="hitungLuas()">Hitung Luas</button>
+</div>
+</div>
+
+<div class="keliling">
+  <label for="sisiA">Sisi A (cm):</label>
+  <input type="text" id="sisiA" placeholder="Masukkan panjang sisi A">
+
+  <label for="sisiB">Sisi B (cm):</label>
+  <input type="text" id="sisiB" placeholder="Masukkan panjang sisi B">
+
+  <label for="sisiC">Sisi C (cm):</label>
+  <input type="text" id="sisiC" placeholder="Masukkan panjang sisi C">
+
+  <button onclick="hitungKeliling()">Hitung Keliling</button>
+</div>
+
+<div class="hasil" id="output"></div>
+<script src="js/script.js"></script>
+</body>
+</html>
